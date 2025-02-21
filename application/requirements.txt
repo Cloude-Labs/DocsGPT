@@ -1,5 +1,5 @@
 anthropic==0.45.2
-boto3==1.35.97
+boto3==1.36.25
 beautifulsoup4==4.12.3
 celery==5.4.0
 dataclasses-json==0.6.7
