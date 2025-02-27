@@ -16,6 +16,22 @@
           "${workspaceFolder}/docker-compose.yaml"
         ]
       }
+    },
+    {
+      "type": "docker-compose",
+      "label": "docker-compose: debug:backend",
+      "dockerCompose": {
+        "up": {
+          "detached": true,
+          "services": [
+            "backend"
+          ],
+          "build": true
+        },
+        "files": [
+          "${workspaceFolder}/docker-compose.yaml"
+        ]
+      }
     }
   ]
 }
